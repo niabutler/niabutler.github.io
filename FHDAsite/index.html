@@ -1,4 +1,5 @@
   <!DOCTYPE html>
+
 <html lang="en"> 
 
     <head>
@@ -19,7 +20,7 @@
             }
 
 
-            /* ---- navigation bar ---- */
+            /* ---- navigation bar and links ----------------------------------- */
             .nav{
                 list-style: none;
             }
@@ -36,9 +37,7 @@
                 font-family: 'Raleway', sans-serif;
                 margin: auto;
                 font-size: 0.75em;
-                letter-spacing: 0.5;
                 width: 100%;
-
             }
 
             a:link{
@@ -68,11 +67,6 @@
                 padding: 1.5%;
             }
             
-            /*.back a:hover{
-                color: rgb(256,183,194);
-                text-decoration: underline;
-            }*/
-            
             .back{
                 background-color: white;
                 display: block;
@@ -95,11 +89,8 @@
             }
 
 
-            /* ---- main box etc. ----*/
-            .big{
-                width: 100%;
-                border: 5px solid green;
-            }
+            /* ---- main box and formatting -----------------------------------*/
+            
             .mainBox{
                 width: 90%;
                 background-color: rgb(255,255,255);
@@ -130,7 +121,23 @@
                 height: 100%;
                 overflow: hidden;
             }
+            
+            .Tdiv{
+            width: 80%;
+            background-color: rgb(255,255,255);
+            margin: auto;
+            overflow: hidden; 
+            align-content: center;
+            box-sizing: border-box;
+            padding-bottom: 0%;
+            padding-top: 0%;
+            padding-left: 0%;
+            padding-right: 0%;
+              
+            }
 
+            /* ---- images --------------------------------------------------- */
+           
             .img-responsive{
                 max-width: 100%;
                 width: auto;
@@ -150,43 +157,16 @@
                 display: block;
                 margin: auto;
             }
-
             
-           .Tdiv{
-            width: 80%;
-            background-color: rgb(255,255,255);
-            margin: auto;
-            overflow: hidden; 
-            align-content: center;
-            box-sizing: border-box;
-            padding-bottom: 0%;
-            padding-top: 0%;
-            padding-left: 0%;
-            padding-right: 0%;
-              
-            }
+            /*---- text -------------------------------------------------------*/
         
-
             h1{
                 font-size: 4.5em;
-                font-weight: 100;
+                font-weight: 100%;
                 color: rgb(256,183,194);
                 font-family: 'Volkhov', serif;
                 padding-top: 3%;
                 margin: 0;
-            }
-
-            .find-us{
-                font-size: 1em;
-                font-weight: 100;
-                color: rgb(256,183,194);
-                font-family: 'Crimson Text', serif;
-                padding-top: 2%;
-                padding-bottom: 1%;
-                margin: auto;
-                text-align: center;
-                width: 80%;
-                
             }
 
             h{
@@ -199,7 +179,6 @@
                 text-align: center;
                 float: inherit;
             }
-
             
             p{
               font-family: 'Raleway', sans-serif;
@@ -218,9 +197,24 @@
                 font-size: 120%;
                
             }
+        
+            .textbox{
+                margin-left: auto;
+                margin-right: auto;
+                width: 65%;
+                text-align: center;
 
+            }
             
-            /*--- gallery stuff ---*/
+            .textbox2{
+                margin-left: auto;
+                margin-right: auto;
+                width: 75%;
+                text-align: center;
+            }
+            
+            
+            /*--- gallery stuff -----------------------------------------------*/
             .gallery-mb{
                 background-color: rgb(255,255,255);
                 margin-bottom: 5%;
@@ -240,7 +234,7 @@
                 font-style: italic;
             }
            
-
+            
             .responsive {
                 padding: 2%;
                 float: left;
@@ -268,20 +262,17 @@
                 background-color: rgb(238,238,238);
             } 
 
-            .textbox{
-                margin-left: auto;
-                margin-right: auto;
-                width: 65%;
+            /*---- extra -------------------------------------------------------*/ 
+            .find-us{
+                font-size: 1em;
+                font-weight: 100;
+                color: rgb(256,183,194);
+                font-family: 'Crimson Text', serif;
+                padding-top: 2%;
+                padding-bottom: 1%;
+                margin: auto;
                 text-align: center;
-
-            }
-            
-            .textbox2{
-                margin-left: auto;
-                margin-right: auto;
-                width: 75%;
-                text-align: center;
-
+                width: 80%;
             }
             
             button{
@@ -300,23 +291,14 @@
                 padding: 10px;
                 font-family: 'Open Sans', sans-serif;
                 text-align: center;
-
             }
+            
             .footer{
                 background-color: rgb(105,105,105);
                 color: rgb(255,255,255);
                 padding: 20px;
                 text-align: center;
                 font-family: 'Open Sans', sans-serif;
-            }
-            
-            .col-wide{
-                box-sizing: content-box;
-                width: 20%;
-                padding: 10px;
-                background-color: rgb(0,0,0);
-                float: left;
-                height: 100%;
             }
 
         </style>
@@ -338,7 +320,7 @@
 
 
 
-            <!-- About us -->
+            <!-- About us  ----------------------------------------------------------------------------------------------------------------------------------- -->
 
            
                     <div class="mainBox"> 
@@ -358,7 +340,7 @@
     
 
 
-            <!-- Teachers -->
+            <!-- Teachers ----------------------------------------------------------------------------------------------------------------------------------- -->
 
             
             <div class="Tdiv">
@@ -382,7 +364,6 @@
                 </div>
             </div>
                 
-        
                 
             <div class="Tdiv">
                 <div class="col">
@@ -412,27 +393,29 @@
             <div class="mainBox">
             </div>
 
+            
+            
 
-            <!-- Gallery -->
+            <!-- Gallery  ----------------------------------------------------------------------------------------------------------------------------------- -->
             
 
         <div id="Gallery" class="gallery-mb"> 
                     <div class="responsive">
-                            <a style="padding: 0;"target="_blank" href="#">
-                                <img src="images/shackel-arabesque2-gallery.jpg" alt="India Shackel doing an arabesque" align="middle"></a>
+                            <a style="padding: 0;" target="_blank" href="#">
+                                <img src="images/shackel-arabesque2-gallery.jpg" alt="India Shackel doing an arabesque"></a>
                         <div class="desc">India Shackel, senior student</div>
                     </div>
                        
                     <div class="responsive">
                                 <a style="padding: 0;" target="_blank" href="#">
-                            <img src="images/aidan-gallery.jpg" alt="Aidan Riches kneeling on one knee" align="middle">
+                            <img src="images/aidan-gallery.jpg" alt="Aidan Riches kneeling on one knee">
                                     </a>
                                 <div class="desc">Aidan Riches, senior student</div>
                             </div>
             
                     <div class="responsive">
                         <a style="padding: 0;" target="_blank" href="#">
-                            <img src="images/shackel-attitude-gallery.jpg" alt="India Shackel doing an attitude" align="middle">
+                            <img src="images/shackel-attitude-gallery.jpg" alt="India Shackel doing an attitude">
                         </a>
                         <div class="desc">India Shackel, senior student</div>
                     </div>
@@ -440,7 +423,7 @@
 
                     <div class="responsive">
                                 <a style="padding: 0;" target="_blank" href="#">
-                            <img src="images/kezia-gallery.jpg" alt="Kezia Shepherd with her leg in second" align="middle">
+                            <img src="images/kezia-gallery.jpg" alt="Kezia Shepherd with her leg in second">
                                     </a>
                                 <div class="desc">Kezia Shepherd, senior student</div>
                             </div>
@@ -452,8 +435,10 @@
             
             <div> </div>
 
+            
+        
 
-            <!-- Community -->
+            <!-- Community  ---------------------------------------------------------------------------------------------------------------------------------- -->
 
             <div class="mainBox"> 
                 <div class="col">
@@ -475,7 +460,7 @@
 
 
 
-                <!-- Find us -->
+            <!-- Find us  ---------------------------------------------------------------------------------------------------------------------------------- -->
 
             <div class="mainBox">
                     
@@ -501,17 +486,15 @@
 
 
 
+            <!-- Footer  ----------------------------------------------------------------------------------------------------------------------------------- -->
+        
+            <div class="sub-footer"> 
+                <h5>  Contact Fiona Haines on 021721020 or via email:   f.haines.dance@gmail.com. </h5>
+            </div> 
 
-            <!-- Footer -->
-        <div class="sub-footer"> 
-            <h5>  Contact Fiona Haines on 021721020 or via email:   f.haines.dance@gmail.com. </h5>
-        </div> 
-
-        <div class="footer">
-            <h5>  &copy; Fiona Haines Dance Academy, Nia Butler 2019</h5>
-        </div>
-
-    
+            <div class="footer">
+                <h5>  &copy; Fiona Haines Dance Academy, Nia Butler 2019</h5>
+            </div>
         
         </body>
    
